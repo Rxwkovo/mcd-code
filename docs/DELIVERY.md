@@ -2,7 +2,7 @@
 
 交付候选版日期：2026-10-15（北京时间）。
 
-**奶蛙会记住你的口味，越点越懂你。** 本项目是通过真实麦当劳 MCP 点餐的 Skill，附带零第三方 Python 依赖的终端入口。项目仓库为 [Rxwkovo/mcd-code](https://github.com/Rxwkovo/mcd-code)，报名尚未提交。
+**奶蛙会记住你的口味，越点越懂你。** 本项目是通过真实麦当劳 MCP 点餐的 Skill，附带零第三方 Python 依赖的终端入口。项目仓库为 [Rxwkovo/mcd-code](https://github.com/Rxwkovo/mcd-code)，参赛申请已提交 [Issue #739](https://github.com/M-China/mcd-developer-innovation-challenge/issues/739)，待官方校验回复。
 
 ## 收到源码后
 
@@ -36,7 +36,7 @@ python mcd.py --json --command "/help"
 
 1. 核对 [公开仓库](https://github.com/Rxwkovo/mcd-code) 默认分支，确保 README.md、CONTEST_DECLARATION.md、MCP_INTEGRATION.md 和 mcp-config.example.json 直接位于根目录；包含 `.github/`、`.gitignore`、`.gitattributes`。
 2. [报名草稿](registration-issue.md) 已填入真实仓库地址，退出登录后检查仓库可读，并查看 GitHub Actions 结果。
-3. 标题使用 `【参赛申请】麦门 Code（mcd-code）`，正文复制草稿全部四行，到 [官方 Issue 页面](https://github.com/M-China/mcd-developer-innovation-challenge/issues/new) 由本人提交。字段与内容同一行，项目地址使用纯 URL。
+3. 已使用标题 `【参赛申请】麦门 Code（mcd-code）` 和草稿的完整四行正文提交 [官方 Issue #739](https://github.com/M-China/mcd-developer-innovation-challenge/issues/739)，不重复提交。
 4. 等待官方在 Issue 下回复成功通知；提交 Issue 不等于报名成功。[报名准备清单](SUBMISSION.md) 列出发布和资格核对项。
 
 根据 [官方活动规则](https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/activityGuidelines.md)，报名截止为 **2026-10-25 23:59（北京时间）**。保持仓库公开可访问；不改官方声明，不把代码 MIT 许可套用于第三方素材。

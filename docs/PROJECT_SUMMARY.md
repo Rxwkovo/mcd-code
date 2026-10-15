@@ -32,4 +32,4 @@ Python 3.10+ 标准库运行，无第三方 Python 依赖。Streamable HTTP 客�
 
 ## 交付状态
 
-源码、Skill、公开素材、官方原样声明、MCP 集成说明、脱敏连接器示例、真实验收记录及报名 Issue 草稿已整理。项目仓库为 https://github.com/Rxwkovo/mcd-code，报名草稿已填入该地址，报名尚未提交。第三方角色、视频与笑声的来源和上游说明见 assets/SOURCES.md，不能把来源记录当作授权证明。
+源码、Skill、公开素材、官方原样声明、MCP 集成说明、脱敏连接器示例、真实验收记录及报名正文已整理。项目仓库为 https://github.com/Rxwkovo/mcd-code，已提交官方 Issue #739，当前待官方校验回复；详见 [报名记录](REGISTRATION.md)。第三方角色、视频与笑声的来源和上游说明见 assets/SOURCES.md，不能把来源记录当作授权证明。

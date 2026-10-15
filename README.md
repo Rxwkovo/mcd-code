@@ -172,6 +172,6 @@ python scripts/verify_live.py --city '你的城市' --keyword '附近地标' --s
 
 代码采用 MIT；官方声明、工具说明、商标及第三方展示素材保留各自权利与条款。`assets/SOURCES.md` 记录来源与上游说明，不将第三方素材标成原创或纳入代码 MIT 授权。
 
-项目仓库：[Rxwkovo/mcd-code](https://github.com/Rxwkovo/mcd-code)。[报名 Issue 草稿](docs/registration-issue.md) 已填写该地址，尚未提交报名；按[官方活动仓库](https://github.com/M-China/mcd-developer-innovation-challenge)要求由本人提交。`.local/`、凭据和个人返回不纳入公开源码。完整步骤和待办见 [报名准备清单](docs/SUBMISSION.md)。
+项目仓库：[Rxwkovo/mcd-code](https://github.com/Rxwkovo/mcd-code)。已通过 [官方 Issue #739](https://github.com/M-China/mcd-developer-innovation-challenge/issues/739) 提交参赛申请，当前待官方校验回复；不是已确认报名成功。`.local/`、凭据和个人返回不纳入公开源码。[报名记录](docs/REGISTRATION.md) 保留核验结果与尚未确认的事项，勿重复提交。
 
 奶蛙为网络梗，本项目为二创致敬；本项目为个人独立开发，非麦当劳官方产品

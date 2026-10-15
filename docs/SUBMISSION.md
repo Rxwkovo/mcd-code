@@ -2,7 +2,7 @@
 
 核对日期：2026-10-15，UTC+08:00。
 
-交付入口：[DELIVERY.md](DELIVERY.md)。项目仓库为 [Rxwkovo/mcd-code](https://github.com/Rxwkovo/mcd-code)，报名草稿已填写该地址；报名尚未提交。
+交付入口：[DELIVERY.md](DELIVERY.md)。项目仓库为 [Rxwkovo/mcd-code](https://github.com/Rxwkovo/mcd-code)，已通过 [官方 Issue #739](https://github.com/M-China/mcd-developer-innovation-challenge/issues/739) 提交；当前待官方校验回复。核验明细见 [报名记录](REGISTRATION.md)，不要重复报名。
 
 官方依据：[活动 README](https://github.com/M-China/mcd-developer-innovation-challenge)、[完整规则](https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/activityGuidelines.md)。报名及排名截止为 **2026-10-25 23:59，北京时间**。以官方后续发布为准。
 
@@ -34,8 +34,8 @@
 2. 使用 `python scripts/package_source.py` 生成源码包。解压后，上传 **mcd-code 目录内部文件**，保证仓库根目录直接看到 README.md 等必需文件；不要多包一层目录。
 3. 在 GitHub 将仓库设为 Public，并在退出登录或无痕窗口确认可以读取必需文件。不要上传 `.local/`、`outputs/`、凭据、订单、支付链接或操作状态库。
 4. `docs/registration-issue.md` 已填入 https://github.com/Rxwkovo/mcd-code，提交前再核对仓库地址。
-5. 打开 [官方新建 Issue 页面](https://github.com/M-China/mcd-developer-innovation-challenge/issues/new)，使用下方标题，粘贴草稿正文后由本人提交。
-6. 查看官方系统在 Issue 下的成功或失败通知；创建 Issue 本身不等于报名成功。发布后检查本仓库的 GitHub Actions 结果。
+5. 本项目已按下方标题和四行正文提交 [Issue #739](https://github.com/M-China/mcd-developer-innovation-challenge/issues/739)，无需再创建报名 Issue。
+6. 查看该 Issue 下的官方成功或失败通知；创建 Issue 本身不等于报名成功。六项首次 GitHub Actions 检查已经通过，后续以平台当前结果为准。
 
 建议 Issue 标题：**【参赛申请】麦门 Code（mcd-code）**
 

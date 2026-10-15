@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-15T15:11:45.065677+08:00",
+  "passed": true,
+  "checks": {
+    "required_files": {
+      "passed": true
+    },
+    "declaration_hash": {
+      "passed": true
+    },
+    "official_declaration_bytes": {
+      "passed": true
+    },
+    "python_syntax_and_stdlib_imports": {
+      "passed": true
+    },
+    "connector_environment_placeholder": {
+      "passed": true
+    },
+    "public_package_boundaries": {
+      "passed": true
+    },
+    "public_file_sensitive_values": {
+      "passed": true
+    },
+    "entry_document_links": {
+      "passed": true
+    },
+    "shipped_media": {
+      "passed": true
+    },
+    "real_cli_help_entry": {
+      "passed": true
+    },
+    "real_cli_preferences_entry": {
+      "passed": true
+    },
+    "opening_banner_width": {
+      "passed": true
+    }
+  },
+  "public_file_count": 60,
+  "active_token_value_scanned": true,
+  "mcp_writes_executed": 0,
+  "note": "交付文件和实际程序入口检查；不等于全部业务或报名资格审核通过。"
+}

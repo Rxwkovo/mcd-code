@@ -1,0 +1,1378 @@
+{
+  "checkedAt": "2026-10-15T11:34:50.273480+08:00",
+  "endpoint": "https://mcp.mcd.cn",
+  "toolCount": 35,
+  "writesExecuted": 0,
+  "storeCode": "1410399",
+  "checks": {
+    "now-time-info": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": {
+          "timestamp": "int",
+          "datetime": "str",
+          "formatted": "str",
+          "date": "str",
+          "year": "int",
+          "month": "int",
+          "day": "int",
+          "dayOfWeek": "str",
+          "timezone": "str",
+          "offset": "str",
+          "utc": "str"
+        }
+      }
+    },
+    "campaign-calendar": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": {
+          "currentTime": "str",
+          "dailyList": [
+            {
+              "date": "str",
+              "dateText": "str",
+              "events": [
+                {
+                  "activityCode": "str",
+                  "activityStage": "int",
+                  "eventType": "int",
+                  "subscribeScene": "str",
+                  "resourceId": "str",
+                  "position": "str",
+                  "showStyle": "int",
+                  "activityTitle": "str",
+                  "bannerTitleColor": "str",
+                  "activityTag": "str",
+                  "price": "str",
+                  "priceSuffix": "str",
+                  "activitySubTitle": "str",
+                  "activityBgColor": "str",
+                  "button": {
+                    "status": "int",
+                    "text": "str",
+                    "color": "str",
+                    "buttonStyle": "int"
+                  },
+                  "articleDto": {
+                    "title": "str",
+                    "content": "str",
+                    "imgList": [
+                      "str"
+                    ],
+                    "highlights": "str",
+                    "buttonText": "str",
+                    "buttonIcon": "str",
+                    "appJumpUrl": "str"
+                  },
+                  "showType": "int"
+                }
+              ],
+              "today": "bool"
+            }
+          ],
+          "subscribedEvents": []
+        }
+      }
+    },
+    "query-my-account": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": {
+          "availablePoint": "str",
+          "accountId": "str",
+          "accumulativePoint": "str",
+          "currency": "str",
+          "currentMouthExpirePoint": "str",
+          "expiredPoint": "str",
+          "frozenPoint": "str",
+          "lastMouthExpirePoint": "str",
+          "nextMouthExpirePoint": "str",
+          "usedPoint": "str"
+        }
+      }
+    },
+    "available-coupons": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": [
+          {
+            "couponName": "str",
+            "couponImage": "str",
+            "couponStatus": "str",
+            "label": "str"
+          }
+        ]
+      }
+    },
+    "query-my-coupons": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": {
+          "coupons": [
+            {
+              "id": "str",
+              "code": "str",
+              "title": "str",
+              "showType": "int",
+              "subscriptPath": "str",
+              "image": "str",
+              "bigImage": "str",
+              "instructions": {
+                "labels": [
+                  {
+                    "text": "str",
+                    "color": "str",
+                    "code": "int"
+                  }
+                ],
+                "availableTime": [
+                  {
+                    "text": "str",
+                    "color": "str",
+                    "type": "int"
+                  }
+                ]
+              },
+              "discountInfo": {
+                "discountValue": "str",
+                "discountDesc": "str",
+                "discountTypePosition": "int",
+                "discountTypeText": "str"
+              },
+              "tradeStartDate": "str",
+              "tradeEndDate": "str",
+              "tradeStartDateTime": "str",
+              "tradeEndDateTime": "str",
+              "weekdays": [],
+              "isAllTradeTime": "int",
+              "tradeTimePeriods": [
+                {
+                  "startTime": "str",
+                  "endTime": "str"
+                }
+              ],
+              "totalCount": "int",
+              "totalAvailableCount": "int",
+              "currentDayAvailableCount": "int",
+              "orderType": "int",
+              "orderTypes": [
+                "int"
+              ],
+              "tags": [
+                {
+                  "type": "int",
+                  "value": "str",
+                  "label": "str",
+                  "color": "str"
+                }
+              ],
+              "enable": "int",
+              "filterValues": [],
+              "beType": "int",
+              "beTypes": [
+                "int"
+              ],
+              "promotionId": "str",
+              "couponCardType": "int",
+              "mpCouponType": "int",
+              "isPrepaid": "int",
+              "couponPromotionType": "int",
+              "promotionChildrenType": "int",
+              "channels": [
+                "str"
+              ],
+              "isCanGive": "int",
+              "reducePrice": "str",
+              "reducePriceText": "str",
+              "paymentType": "int",
+              "paymentTypeForSort": "int",
+              "appliedCategory": "int",
+              "ifFreeCoupon": "bool",
+              "receiveTime": "str",
+              "isGiveAway": "int",
+              "shareThemeId": "int",
+              "supportReservation": "int",
+              "supportSoldOut": "int",
+              "jumpUseScenes": [
+                "str"
+              ],
+              "fulfillment": "int",
+              "currentChannelCanRedeem": "bool",
+              "onlyAppCanRedeem": "bool",
+              "onlyPosCanRedeem": "bool",
+              "channelIconUrls": [],
+              "receivedDays": "int",
+              "receivedDaysMsg": "str",
+              "btnText": "str",
+              "datetimeText": "str",
+              "bindButtonGif": "str",
+              "toastText": "str",
+              "multipleProducts": "bool"
+            }
+          ],
+          "totalCount": "int",
+          "currentPage": "int",
+          "pageSize": "int",
+          "totalPages": "int"
+        }
+      }
+    },
+    "query-nearby-stores": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": [
+          {
+            "storeCode": "str",
+            "storeName": "str",
+            "address": "str",
+            "distance": "int",
+            "businessStatus": "bool",
+            "businessStartTime": "str",
+            "businessEndTime": "str",
+            "longitude": "float",
+            "latitude": "float",
+            "reservation": "bool",
+            "reservationTimeOptions": [
+              {
+                "date": "str",
+                "today": "bool",
+                "reservationOptionText": "str"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "query-meals": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": {
+          "categories": [
+            {
+              "name": "str",
+              "meals": [
+                {
+                  "code": "str",
+                  "tags": [
+                    "str"
+                  ]
+                }
+              ]
+            }
+          ],
+          "meals": {
+            "9900005456": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "511781": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "6352": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "511782": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "2430": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521986": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "canWithOrder": "bool"
+            },
+            "9900011056": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900016078": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900016079": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900016076": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900016077": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900016075": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900016073": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005460": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005462": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "3755": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005464": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900004236": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "3757": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005466": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "6362": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005449": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900015008": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "3010": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900010110": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "1106": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "1100": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005451": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005453": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "507394": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900008746": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900008745": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900008747": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "1120": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521966": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "520361": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900008751": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900006332": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900008752": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900008754": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005468": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "514782": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900006957": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "1401": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900016082": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "1406": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005413": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "514851": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900016309": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900015730": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521946": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900016311": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900016310": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "521156": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900004835": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "510488": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "4648": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005421": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900003586": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005422": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900000890": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900015729": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521950": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900013304": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521797": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521951": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900011126": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521952": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900015602": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521953": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900011128": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521316": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900011121": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900015568": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900011123": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "1700": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900000888": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900000886": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900000884": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900000885": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "4810": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "510479": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900000882": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900005411": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900000881": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900004066": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900004064": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "1440": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "515280": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900009242": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "507389": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900009245": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900000893": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "515955": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005321": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900000891": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "withOrder": {
+                "membershipCode": "str",
+                "specId": "str"
+              },
+              "canWithOrder": "bool"
+            },
+            "9900005423": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521816": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "521817": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "6102": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005428": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "1450": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "520445": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "520689": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "507409": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "canWithOrder": "bool"
+            },
+            "3505": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "1600": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "507411": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "canWithOrder": "bool"
+            },
+            "515949": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005430": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "4437": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            },
+            "515946": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "discountType": "str",
+              "canWithOrder": "bool"
+            },
+            "9900005432": {
+              "name": "str",
+              "image": "str",
+              "currentPrice": "str",
+              "originalPrice": "str",
+              "canWithOrder": "bool"
+            }
+          }
+        }
+      }
+    },
+    "query-store-coupons": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": [
+          {
+            "title": "str",
+            "couponId": "str",
+            "couponCode": "str",
+            "tradeDateTime": "str",
+            "products": [
+              {
+                "productCode": "str",
+                "productName": "str"
+              }
+            ],
+            "promotionId": "str"
+          }
+        ]
+      }
+    },
+    "list-nutrition-foods": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": "str"
+      }
+    },
+    "query-meal-detail": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": {
+          "code": "str",
+          "name": "str",
+          "rounds": [
+            {
+              "id": "int",
+              "name": "str",
+              "quantity": "int",
+              "maxQuantity": "int",
+              "minQuantity": "int",
+              "choices": [
+                {
+                  "code": "str",
+                  "name": "str",
+                  "quantity": "int",
+                  "maxQuantity": "int",
+                  "isDefault": "int",
+                  "diffPrice": "str",
+                  "supportModify": "bool",
+                  "modification": {
+                    "items": [
+                      {
+                        "maxValues": "int",
+                        "minValues": "int",
+                        "values": "list"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "image": "str",
+          "supportModify": "bool"
+        }
+      }
+    },
+    "calculate-price": {
+      "status": "passed",
+      "shape": {
+        "data": {
+          "productOriginalPrice": "int",
+          "productPrice": "int",
+          "originalPrice": "int",
+          "discount": "int",
+          "price": "int",
+          "productList": [
+            {
+              "productCode": "str",
+              "productName": "str",
+              "quantity": "int",
+              "originalSubtotal": "int",
+              "subtotal": "int"
+            }
+          ],
+          "takeWayList": [
+            {
+              "code": "str",
+              "title": "str",
+              "subtitle": "str"
+            }
+          ]
+        }
+      }
+    },
+    "mall-points-products": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": [
+          {
+            "spuName": "str",
+            "spuId": "int",
+            "spuImage": "str",
+            "point": "str",
+            "shopId": "int",
+            "selling": "str",
+            "upTime": "str",
+            "downTime": "str",
+            "catName": "str",
+            "status": "int",
+            "price": "str"
+          }
+        ]
+      }
+    },
+    "mall-product-detail": {
+      "status": "passed",
+      "shape": {
+        "success": "bool",
+        "code": "int",
+        "message": "str",
+        "datetime": "str",
+        "traceId": "str",
+        "data": {
+          "spuName": "str",
+          "spuId": "int",
+          "images": [
+            "str"
+          ],
+          "shopId": "int",
+          "skuList": [
+            {
+              "skuId": "int",
+              "extTradePrice": "str",
+              "points": "str",
+              "price": "str"
+            }
+          ],
+          "selling": "str",
+          "note": "str",
+          "detail": "str",
+          "upDate": "str",
+          "downDate": "str",
+          "categoryRuleId": "str",
+          "spuCategory": "str",
+          "partyPeople": "str",
+          "partyAge": "str",
+          "partyRange": "int",
+          "partyType": "int",
+          "spuLimit": {
+            "ruleType": "int",
+            "rule": "str",
+            "cycle": "int",
+            "limitCount": "int",
+            "baseCount": "int",
+            "limitSingle": "int"
+          }
+        }
+      }
+    }
+  },
+  "autoNearestStore": {
+    "storeName": "麦当劳南昌新牛广场餐厅",
+    "storeCode": "1410399",
+    "distanceMeters": 47,
+    "menuCount": 113,
+    "source": "用户指定测试位置：南昌市中山路2号",
+    "writesExecuted": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-15",
+  "mode": "live",
+  "ok": true,
+  "tool_list_before_business": true,
+  "tools": [
+    "query-nearby-stores",
+    "query-meals",
+    "query-meal-detail",
+    "query-store-coupons",
+    "calculate-price"
+  ],
+  "quote_count": 20,
+  "failed_quotes": 0,
+  "card_items": [
+    {
+      "name": "经典麦旋风",
+      "quantity": 1
+    },
+    {
+      "name": "雪碧",
+      "quantity": 1
+    }
+  ],
+  "card_price_cents": 2550,
+  "price_source": "calculate-price",
+  "card_size": [
+    1080,
+    1440
+  ],
+  "character_count": 11,
+  "live_writes": 1,
+  "real_order_creation_tested": true,
+  "payment_tested": false,
+  "live_order_preview_tested": true,
+  "order_preview_price_cents": 2550,
+  "real_order_query_tested": true,
+  "live_order_status": "待支付",
+  "order_creation_confirmed_by_user": true,
+  "order_create_price_cents": 2550,
+  "submission_build_readonly_recheck": {
+    "checked_at": "2026-10-15T13:55:17.266873+08:00",
+    "ok": true,
+    "mode": "live",
+    "quote_count": 20,
+    "failure_count": 0,
+    "price_cents": 2550,
+    "card_exported": true,
+    "writes_executed": 0
+  }
+}
